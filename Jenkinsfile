@@ -1,5 +1,5 @@
 pipeline{
-    agent { label 'ONLINE'}
+    agent { label 'eksctl'}
 
   stages{
     stage('vcs clone'){
